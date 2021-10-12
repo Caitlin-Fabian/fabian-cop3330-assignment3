@@ -1,0 +1,20 @@
+This program takes a string and splits up the words. It then counts the words and prints out
+a histogram of the words.
+
+in Content{
+
+	field text is manipulated to split word by word. 
+}
+
+in readFile(no arguement){
+	The whole file is read into a string and sent to be modified.
+}
+in wordCounter(the split up string, searching word){
+	The split up string is the list of words. This function takes in word
+	it is trying to count and returns the number of occurances the word appears 
+	in the list.
+}
+in main{
+	The words are being searched and the histogram is printed out here. It prints 
+	the amount of times the word appears with stars.
+}

@@ -1,0 +1,22 @@
+This program takes in an input as the product name and prints out the corresponding 
+price and quantity. 
+
+ Class Product{
+	
+	Holds the fields name, price, and quantity. These are manipulated later from the file
+}
+
+in data(user input){
+	reads the products as an array and accesses the individual fields of the product. 
+	Prints out the name and price of the desired item.
+}
+in presentProduct(user input){
+	checks if the user input is in the array of products
+}
+
+in main{
+
+	Asks for the name of the product
+	if the product is not present in the list, it will ask again.
+	if it is in the list it will find the price and quantity.
+}

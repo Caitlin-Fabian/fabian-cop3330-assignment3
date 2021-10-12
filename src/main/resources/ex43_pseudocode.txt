@@ -1,0 +1,31 @@
+This program creates a folder with the name of the users input. 
+It has the ability to create an index.html folder, a JavaScript folder, and a CSS folder
+
+in websiteFolder(User name){
+
+	Creates a folder directory that holds the other folders.
+	Prints when the Site is created
+}
+
+in htmlFile( User name and the author){
+
+	Creates the html File and contains the name of the site inside the <title> 
+	tag and the author in a <meta> tag.
+}
+
+in JSFile(User name){
+	Creates the JavaScript folder and prints that the folder was created.
+}
+
+in CSSFile(user name){
+	Creates the CSS folder and the folder directory that points to the file.
+	It also confirms when it is created.
+	
+}
+
+in main{
+
+	Asks the user for the site Name and Author name. 
+	Asks if the user wants a javaScript and CSS folder.
+}
+

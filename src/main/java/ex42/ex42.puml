@@ -1,0 +1,23 @@
+@startuml
+class Person{
+      -last: String
+      -first: String
+      -salary: String
+      +getFirst()
+      +getSalary()
+}
+App-->main
+main<-- readFile
+readFile-->Person
+class App{
+    main()
+    readFile()
+}
+class main{
+    List<Person> list
+}
+class readFile{
+     List<Person> list
+}
+
+@enduml

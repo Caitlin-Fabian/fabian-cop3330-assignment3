@@ -1,0 +1,22 @@
+
+This program reads a file of first and last names, then prints them out through alphabetical
+order and counts the total number of people.
+
+readFile(no argument){
+	
+	Creates a file that reads in the content of a file. 
+	Sends the created String to get sorted by last name
+}
+sorting(list of names){
+	Sorts the names and returns the names
+
+writingToFile(names list, count of people){
+
+	creates an output file and uses PrintWriter to print the 
+	total number of workers and the list of names in order. 
+}
+
+in Main{
+
+	it only calls the readFile method.
+}

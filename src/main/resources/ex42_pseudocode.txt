@@ -1,0 +1,18 @@
+In this program, Take the file with a list of names and salaries. Split them up and 
+print the results into a chat. 
+
+Class Persons{
+
+	Last, First, and Salary are the fields that are manipulated between person.
+}
+Class App{
+
+In readFile (No argument){
+
+	Reading the file and splitting the string at "," and seperating the last name, first name, and salary. 
+	Storing the split string in the Person fields.
+}
+
+In main{
+
+	Printing the header and the list of names and salaries in a table format

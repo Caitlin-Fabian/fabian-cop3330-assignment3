@@ -1,0 +1,13 @@
+@startuml
+class Content{
+    -text: String
+    +splitString()
+}
+Content--|>App
+
+class App{
+    +readFile()
+    +wordCounter()
+}
+
+@enduml

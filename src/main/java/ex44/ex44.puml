@@ -1,0 +1,18 @@
+@startuml
+class Product{
+    -name: String
+    -price : double
+    -quantity: int
+    +toString()
+}
+ App --|> Product
+
+class App{
+
+    +data()
+    +presentProduct()
+}
+class data{
+Object object
+
+@enduml

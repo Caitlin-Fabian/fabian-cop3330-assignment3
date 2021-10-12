@@ -1,0 +1,40 @@
+@startuml
+class App{
+    +websiteFolder()
+    +htmlFile()
+    +JSFile()
+    +CSSFile()
+    +main()
+}
+App-->main
+class main{
+String name
+String author
+String JSanswer
+String CSSAnswer
+}
+main-->JSFile
+main-->htmlFile
+main-->CSSFile
+main->websiteFolder
+class htmlFile{
+boolean htmlFileCreated
+ File htmlFile
+ File output
+ }
+
+ class JSFile{
+ boolean userJSFolderCreated
+ File userJSFolder
+}
+class CSSFile{
+boolean userCSSFolderCreated
+File userCSSFolder
+}
+
+class websiteFolder{
+  String siteFile
+  String userSiteFile
+  File userSiteFolder
+}
+@enduml

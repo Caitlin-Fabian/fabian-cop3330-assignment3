@@ -1,0 +1,27 @@
+@startuml
+class App{
+ +readFile
+ +writingFile
+}
+
+class main{
+    readFile()
+}
+App-->main
+main --|>readFile
+readFile--|>writingToFile
+readFile --|>sorting
+class readFile{
+    List<String> names
+    File myObj
+}
+class sorting{
+    Collections.sort()
+}
+
+class writingToFile{
+    File output
+
+}
+
+@enduml

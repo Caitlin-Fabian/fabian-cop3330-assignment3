@@ -1,0 +1,12 @@
+@startuml
+class Text{
+    -text :String
+    +replacement()
+}
+Text --|> App
+
+class App{
+    +writeToFile();
+    +readFile();
+}
+@enduml

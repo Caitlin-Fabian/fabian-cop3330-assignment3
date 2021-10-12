@@ -1,0 +1,20 @@
+In this program you read in a string and then replace the word utilize with the use
+and then print the string into a folder.
+
+Class Text{
+	fields text, and the replacement method that changes every utilize with use."
+}
+in readFile(no argument){
+	This function reads in the lines to a string
+}
+
+in writeToFile( The name of the file given by the user, the text){
+	Writes the text of the modified string to the created output 
+	file. 
+}
+
+in main{
+	reads the file and calls for the change of the string. 
+	Then asks the user for the name of the file.
+	Calls to create the file with the modified String.
+}
